@@ -14,12 +14,13 @@ Navbar styles
     z-index: 1000;
 
 }
+
 /*
 ============
 unordered list styles
 ============
 */
-ul{
+.navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -30,7 +31,7 @@ list-item styles
 =============
 
 */
-li{
+.navbar ul li{
     display: inline;
     margin: 0 1em;
 }
@@ -40,7 +41,7 @@ li{
 anchor tag lists
 ===============
 */
-a{
+.navbar a{
     color: #fff;
 }
 /*
@@ -63,6 +64,9 @@ home section
     font-size: 1.2em;
 
 }
+#home h1{
+    font-size: 2.5em;
+}
 #home p{
     color: #666;
 }
@@ -78,6 +82,9 @@ portfolio-container
     justify-content: space-around;
     padding: 1em;
 }
+
+
+
 .portfolio-item{
     background-color: #fff;
     border: 1px solid #ddd;
