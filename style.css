@@ -55,10 +55,15 @@ main-content
 */
 
 .main-content {
-    padding: 2em 1em;
     padding-top: 5em;
+}
+
+
+.main-content section{
+    padding: 2em 1em;
     text-align: center;
 }
+
 
 /*
 ===============
